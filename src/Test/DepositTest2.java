@@ -7,8 +7,11 @@ public class DepositTest2 {
 
 	@Test
 	public void testDeposit1() {
+		
+		//Test class
 		DepositCalculator test = new DepositCalculator();
-		double result = test.Deposit(15000.0 , 4.0, 1);
-		assertEquals(15600, result,0.1);
+		
+		//Test method
+		assertEquals(15600, test.Deposit(15000.0 , 4.0, 1),0.1);
 	}
 }
